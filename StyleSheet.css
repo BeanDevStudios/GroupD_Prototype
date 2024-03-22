@@ -1,0 +1,48 @@
+nav {
+    background-color: lightblue;
+    padding:5px;
+    border: 1px solid black;
+    float:left;
+    width:99%;
+}
+nav a {
+    background-color:lightgray;
+    padding:10px;
+    border: 1px solid black;
+    margin:1%;
+    float:left;
+    width:10%;
+}
+nav a:hover{
+    background-color:palegoldenrod;
+}
+
+.content, .contentwide{
+    background-color:lightblue;
+    padding:5px;
+    width:30%;
+    height:500px;
+    float:left;
+    margin:1%;
+    border: 1px solid black;
+}
+.contentwide{
+    width:60%;
+}
+
+.subcontent {
+    width:90%;
+    margin:auto;
+    border: 1px solid black;
+    margin-top:20px;
+    background-color:lightgray;
+    padding:10px;
+}
+h3{
+    text-align:center;
+}
+h4{
+    text-align:center;
+    padding:0px;
+    margin:0px;
+}
