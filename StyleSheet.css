@@ -30,6 +30,25 @@ nav a:hover{
     width:60%;
 }
 
+.content, .contenthome, .contentNotification{
+    background-color:lightblue;
+    padding:5px;
+    width: 30%;
+    height:250px;
+    float:inline-start;
+    margin:1%;
+    border: 1px solid black;
+}
+.contentNotification{
+    background-color:lightblue;
+    padding:5px;
+    width: 63%;
+    height:250px;
+    float:inline-start;
+    margin:1%;
+    border: 1px solid black;
+}
+
 .subcontent {
     width:90%;
     margin:auto;
@@ -38,8 +57,29 @@ nav a:hover{
     background-color:lightgray;
     padding:10px;
 }
+.subcontentNotification {
+    width:95%;
+    height: 80%;
+    margin:auto;
+    margin-top:25px;
+    border: 1px solid black;
+    background-color:lightgray;
+}
+
+.subcontenthome {
+    width:95%;
+    height: 80%;
+    margin:auto;
+    margin-top:25px;
+    border: 1px solid black;
+    background-color:lightgray;
+}
 h3{
     text-align:center;
+}
+
+li{
+    margin-left: 5%;
 }
 h4{
     text-align:center;
