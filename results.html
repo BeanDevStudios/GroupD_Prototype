@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Search</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+</head>
+<body>
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="Tickets.html">Tickets</a>
+        <a href="Inventory.html">Inventory</a>
+        <a href="Notifications.html">Notifications</a>
+        <a href="Calendar.html">Calendar</a>
+        <a href="Analytics.html">Analytics</a>
+        <a href="Jobsites.html">Jobsites</a>
+    </nav>
+    <h1>Inventory Search</h1>
+    <form id="searchForm" action="results.html" method="get">
+        <label for="searchInput">Search Inventory:</label>
+        <input type="text" id="searchInput" name="query" required>
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+</head>
+<body>
+    <h1>Search Results</h1>
+    <div id="results"></div>
+    <script>
+        // Get the search query from the URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const query = urlParams.get('query');
+
+        // You can perform your search logic here and populate the results accordingly
+        // For demonstration purposes, let's just display the query
+        document.getElementById('results').innerText = `Search query: ${query}`;
+    </script>
+</body>
+</html>
