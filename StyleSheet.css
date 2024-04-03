@@ -17,11 +17,15 @@ nav a:hover{
     background-color:palegoldenrod;
 }
 
-.content, .contentwide{
+.content, .contentwide, .contentwidest{
     background-color:lightblue;
     padding:5px;
     width:30%;
-    height:500px;
+    display:block;
+    min-height:250px;
+    height:fit-content;
+    padding-bottom:20px;
+
     float:left;
     margin:1%;
     border: 1px solid black;
@@ -29,12 +33,17 @@ nav a:hover{
 .contentwide{
     width:60%;
 }
-
+.contentwidest {
+    text-align:center;
+    padding:20px;
+    width:90%;
+    margin-left:calc(5% - 20px);
+}
 .content, .contenthome, .contentNotification{
     background-color:lightblue;
     padding:5px;
+    padding-bottom:20px;
     width: 30%;
-    height:250px;
     float:inline-start;
     margin:1%;
     border: 1px solid black;
